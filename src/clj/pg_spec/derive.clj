@@ -140,7 +140,7 @@
         (run! print-spec table-column-info)
         (printf "(s/def %s\n" (keyword (name *root-ns*) table-name))
         (let [spec-keys (map spec-key table-column-info)]
-          (printf "  (s/keys :opt-un [%s\n" (first spec-keys))
+          (printf "  (s/keys :req-un [%s\n" (first spec-keys))
           (run!
            (fn [k]
              (printf "                   %s\n" k))
