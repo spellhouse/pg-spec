@@ -25,17 +25,6 @@
   [db]
   (jdbc/query db [(deref pg-introspection-query)]))
 
-#_
-(first
- (pg-introspect
-  {:dbtype "postgresql"
-   :dbname "suiteness_development"
-   :host "localhost"
-   :user "noprompt"
-   :password ""
-   :ssl false
-   :sslfactory "org.postgresql.ssl.NonValidatingFactory"}))
-
 ;; ---------------------------------------------------------------------
 ;; Spec derivation
 
