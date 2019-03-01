@@ -3,5 +3,4 @@
         org.clojure/java.jdbc {:mvn/version "0.7.8"}
         org.clojure/tools.cli {:mvn/version "0.4.1"}
         org.postgresql/postgresql {:mvn/version "42.2.5.jre7"}
-        meander/alpha {:git/url "https://github.com/noprompt/meander"
-                       :sha "1fb60df078352399f96f3cabd36582ffb5d96854"}}}
+        meander/beta {:mvn/version "0.0.17"}}}
