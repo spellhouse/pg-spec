@@ -3,7 +3,7 @@
    [pg-spec.derive]
    [clojure.spec.alpha :as s]
    [clojure.tools.cli :as cli]
-   [meander.match.alpha :as r.match]))
+   [meander.match.beta :as r.match]))
 
 (def partial-db-spec
   "A partial clojure.java.jdbc db map to be completed with option data
